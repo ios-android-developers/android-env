@@ -4,5 +4,5 @@ export SDK_ROOT=${ANDROID_ENV}/adt-bundle-mac-x86_64-20131030/sdk
 export NDK_ROOT=${ANDROID_ENV}/android-ndk-r9b
 export COCOS2DX_ROOT=${ANDROID_ENV}/cocos2d-x
 
-export PATH=${NDK_ROOT}:${SDK_ROOT}/platform-tools:$PATH
+export PATH=${NDK_ROOT}:${SDK_ROOT}/tools:${SDK_ROOT}/platform-tools:$PATH
 export NDK_MODULE_PATH=${COCOS2DX_ROOT}:${COCOS2DX_ROOT}/cocos2dx/platform/third_party/android/prebuilt
